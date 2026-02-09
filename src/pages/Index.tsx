@@ -228,7 +228,7 @@ const Index = () => {
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         {/* Logo */}
-        <motion.img
+        {/* <motion.img
           src={logo}
           alt="E26 Media Production Pvt Ltd"
           className="mb-12 h-20 w-auto md:h-28"
@@ -244,7 +244,7 @@ const Index = () => {
             scale: { duration: 0.6, delay: 0.2 },
             y: { duration: 4, repeat: Infinity, ease: "easeInOut" }
           }}
-        />
+        /> */}
 
         {/* Heading */}
         <motion.h1
